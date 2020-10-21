@@ -1,7 +1,7 @@
 ---
 title: "Défis de la réutilisation des données ouvertes et stratégies alternatives"
 subtitle: "Séminaire Méthodologie de Sciences Po"
-author: "Samuel Goëta, Datactivist"
+author: "Samuel Goëta, Datactivist / Sciences Po Aix"
 date: "`r Sys.Date()`"
 output:
   SlidesDatactivist::moon_reader:
@@ -93,6 +93,8 @@ class: inverse, middle
 ---
 ### Quelques mots sur Datactivist
 
+Nos métiers : 
+
 - Conseil sur les .red[**stratégies d’ouverture de données**] : nous aidons les organisations dans la conception et la mise en œuvre de leur stratégie d’ouverture de données.
 
 - .red[**Accompagnement dans la réutilisation de données ouvertes**] : nous aidons les organisations à utiliser les données au quotidien. 
@@ -104,7 +106,7 @@ class: inverse, middle
 ---
 ### Datactivist : une entreprise née de la recherche
 
-.reduite[![](conclusion.png)]
+.center[![:largeur 70%](conclusion.png)]
 
 .footnote[Extrait de la conclusion de ma thèse : https://datactivist.coop/these]
 ---
@@ -349,7 +351,7 @@ class: inverse, center, middle
 # 4 stratégies alternatives pour obtenir des données
 
 ---
-### Recourir au .red[droit d'accès] 
+### Stratégie 1 : recourir au .red[droit d'accès] 
 .pull-left[* Le fondement : la .red[Déclaration des Droits de l'Homme et du Citoyen de 1789] dans son article 15, "la Société a le droit de demander compte à tout Agent public de son administration." 
 
 * Le droit d'accès des citoyens à l'information publique émerge en **1978 avec la loi dite CADA** du nom de la Commission d'Accès aux Documents Administratifs. 
@@ -377,7 +379,7 @@ Il ne s’exerce que si l’administration a effectivement en sa possession le d
 ![](madada.png)
 
 ---
-### .red[Scraper] les données du web
+### Stratégie 2 : .red[Scraper] les données du web
 
 Le scraping consiste à **extraire les données présentes sur des sites** web généralement dans des pages éparses. Il est courant qu’une organisation diffuse des données sur le web mais ne mette pas à disposition les données derrière ces sites.Or, pour beaucoup de sites publics, ces données auraient vocation à être librement réutilisables par toutes et tous. 
 
@@ -392,18 +394,18 @@ Les outils de scraping permettent de **cibler les éléments à extraire sur les
 ---
 ### Le Monde : un projet de scraping
 
-Le journaliste Alexandre Léchenet avait réalisé en 2012 une enquête sur les dépassements d’honoraires des médecins (figure <$n:figure:lemonde>) pour Le Monde en extrayant les données du site ameli-direct.fr qui indique les tarifs habituellement exercés par chaque praticien. 
+Le journaliste Alexandre Léchenet avait réalisé en 2012 une enquête sur les dépassements d’honoraires des médecins pour Le Monde en extrayant les données du site ameli-direct.fr qui indique les tarifs habituellement exercés par chaque praticien. 
 
-![](lechenet.png)
+.center[![:largeur 70%](lechenet.png)]
 
 ---
 ### Cimade : à guichets fermés
 la Cimade, une association de défense des réfugiés et du droit d’asile, a mis en place le site « A guichets fermés » pour dénoncer l’attente pour les formalités d’immigration devenue « un moyen de domination des personnes étrangères par la préfecture[1]. » Pour produire le site «[ A guichets fermés ](https://www.lacimade.org/presse/a-guichets-fermes-les-personnes-etrangeres-mises-a-distance-des-prefectures/)», l’association a développé des robots qui se rendent toutes les deux heures sur les sites de prise de rendez-vous en préfecture et extraient le délai d’attente pour les principales formalités. 
 
-![](cimade.png)
+![:largeur 60%](cimade.png)
 
 ---
-### Constituer des données à partir des .red[informations disponibles]
+### Stratégie 3 : constituer des données à partir des .red[informations disponibles]
 
 La troisième stratégie consiste à rassembler des informations disponibles mais éparses dans une base de données.
 
@@ -427,7 +429,7 @@ Un bénévole de Transparency France, surveille les chroniques judiciaires de la
 .center[![:largeur 70%](cartocorru.png)]
 
 ---
-### Faire appel à une .red[foule de contributeurs]
+### Stratégie 4 : faire appel à une .red[foule de contributeurs]
 
 On désigne couramment sous le terme de crowdsourcing l’acte de déléguer des actions à un grand nombre d’individus sous la forme d’un appel ouvert à la contribution. 
 
